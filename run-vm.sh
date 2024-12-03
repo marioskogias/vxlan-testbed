@@ -36,3 +36,4 @@ run_vm() {
 
 run_vm 1
 run_vm 2
+run_vm 3
