@@ -1,0 +1,5 @@
+1. Get a vmdk file from ova
+tar -xvf pre-baked-nfs.ova
+
+2. Convert the vmdk file to a qcow2 file
+qemu-img convert -f vmdk -O qcow2 pre-baked-nfs-disk001.vmdk vmdisk.qcow2
